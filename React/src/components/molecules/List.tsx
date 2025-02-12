@@ -89,7 +89,6 @@ const List: React.FC = () => {
             onChange={handleChange}
             onKeyDown={handleSubmit}
             placeholder="Enter a new task here"
-            max="256"
           />
           <Button variant="default" onClick={() => addTask()}>
             <span className="font-medium">+ Add task</span>
